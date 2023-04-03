@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+ <!-- navbar -->
+ <nav>
+  <div class="navbar1">
+    <i class='bx bx-menu'></i>
+    <div class="logo"><img src="img/logo.jpg" alt=""></div>
+    <div class="nav-links">
+      <div class="sidebar-logo"><i class='bx bx-x' ></i>
+        <span class="logo-name"><img src="img/logo.jpg" alt=""></span>
+      </div>
+      <ul class="links">
+        <li><a href="#">HOME</a></li>
+        <li>
+          <a href="#">Businesses & Products</a>
+          <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+          <ul class="htmlCss-sub-menu sub-menu">
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Financial services</a></li>
+            <li><a href="#">PlayStation</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li class="more">
+              <span><a href="#">More</a>
+              <i class='bx bxs-chevron-right arrow more-arrow'></i>
+            </span>
+              <ul class="more-sub-menu sub-menu">
+                <li><a href="#">Neumorphism</a></li>
+                <li><a href="#">Pre-loader</a></li>
+                <li><a href="#">Glassmorphism</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">About Sony Group</a>
+          <i class='bx bxs-chevron-down js-arrow arrow '></i>
+          <ul class="js-sub-menu sub-menu">
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">World Map</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Technology</a>
+          <i class='bx bxs-chevron-down three-arrow arrow '></i>
+          <ul class="three-sub-menu sub-menu">
+            <li><a href="#">Sony CSL</a></li>
+            <li><a href="#">Imaging and Sensing</a></li>
+            <li><a href="#">AI Initiative</a></li>
+            <li><a href="#">VISION-S</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Employees</a>
+          <i class='bx bxs-chevron-down four-arrow arrow '></i>
+          <ul class="four-sub-menu sub-menu">
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">World Map</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Sustainability</a>
+          <i class='bx bxs-chevron-down five-arrow arrow '></i>
+          <ul class="five-sub-menu sub-menu">
+            <li><a href="#">Employees</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">World Map</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Design</a>
+          <i class='bx bxs-chevron-down six-arrow arrow '></i>
+          <ul class="six-sub-menu sub-menu">
+            <li><a href="#">Design Top</a></li>
+            <li><a href="#">About</a></li> 
+            <li><a href="#">Stories</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+    </div>
+    <div class="search-box1">
+      <i class='bx bx-search'></i>
+      <div class="input-box1">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- ---------slider---------- -->
+<!-- <div class="mybody">
+  <div class="container">
+    <div class="image">
+        <img src="img/slide1.png" alt="">
+        <h5>Movies & TV</h5>
+        <h5>Don't Miss an Inside Look at Episode 7 of "The Last of Us"</h5>
+        <p>Go back in time to see how Ellie's adventure with Riley </p>
+    </div>
+    <div class="image">
+        <img src="img/slid2.png" alt="">
+        <h5>Gaming</h5>
+        <h5>Everything You Want to Know About PlayStaion VR2</h5>
+        <p>We have the answers to all your questions with ultimate guide</p>
+    </div>
+    <div class="image">
+        <img src="img/slid3.png" alt="">
+        <h5>Electronics</h5>
+        <h5>Introducing MOMENTUM, a New Short-From Docuseries</h5>
+        <p>Tune in for the 2nd episode following a vegan lifestyle creator</p>
+    </div>
+    <div class="image">
+        <img src="img/slide4.png" alt="">
+        <h5>Gaming</h5>
+        <h5>Power Your Gameplay</h5>
+        <p>Find out why gamers are loving te DualSense Edge Wireles Controller</p>
+    </div>
+    <div class="image">
+        <img src="img/slide5.png" alt="">
+        <h5>Cameras</h5>
+        <h5>New Full-frame Vlog Camera ZV-E1</h5>
+        <p>With a high-performance 35mm full-frame image sensor </p>
+    </div>
+  
+    <div class="button">
+        <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+        <a onclick="nextimg(1)" class="next">&#10095;</a>
+    </div>
+  
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </div>
+</div> -->
+<div id="slider">
+  <ul id="slideWrap">
+    <li><img src="img/slide1.png" alt=""></li>
+    <li><img src="img/slid2.png" alt=""></li>
+    <li><img src="img/slid3.png" alt=""></li>
+    <li><img src="img/slide4.png" alt=""></li>
+    <li><img src="img/slide5.png" alt=""></li>
+  </ul>
+  <a id="prev" href="#">&#8810;</a>
+  <a id="next" href="#">&#8811;</a>
+</div>
+
+<!-- ---------------body------------- -->
+<div class="container-fluid body-container">
+  <div class="row">
+    <div class="col-12 col-md-6"><img src="img/body1.png" alt=""><h2>GAMING</h2><a href="#"><p class="text-dark">Playing With Your Friends on PS5 Has Never Been Easier</p></a></div>
+    <div class="col-12 col-md-6"><img src="img/body2.png" alt=""><h2>GAMING</h2><a href="#"><p class="text-dark">Step Into the Shoes of New Character Ryas in “Horizon Call of the Mountain”</p></a><img src="img/body3.png" alt=""><h2>GAMING</h2><a href="#"><p class="text-dark">See Why Racers Are Getting Excited for “Gran Turismo 7” on PlayStation VR2</p></a></div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6"><img src="img/body4.png" alt=""><h2>EVENT</h2><a href="#"><p class="text-dark">Celebrating the 10th Anniversary of AnimeJapan</p></a><img src="img/body5.png" alt=""><h2>GAMING</h2><a href="#"><p class="text-dark">Find Strength in the Light and Arm Yourself With Darkness in “Destiny 2: Lightfall”</p></a></div>
+    <div class="col-12 col-md-6"><img src="img/body6.png" alt=""><h2>NEW BUSINESS</h2><a href="#"><p class="text-dark">Full of Charm and Lifelike Movements, the New Strawberry Milk aibo Is Here</p></a></div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6"><img src="img/body7.png" alt=""><h2>CAMERAS</h2><a href="#"><p class="text-dark">Learn How to Capture Every Epic Moment From Adventure Photographer Anthony Castro</p></a></div>
+      <div class="col-12 col-md-6"><img src="img/body10.png" alt=""><h2>MOVIES & TV</h2><a href="#"><p class="text-dark">Sing Along With Whitney Houston in “I Wanna Dance With Somebody” Now on Digital</p></a><img src="img/body11.png" alt=""><h2>AUDIO</h2><a href="#"><p class="text-dark">Enjoy High Quality Sound With the Walkman, a Stylish and Compact Music Player</p></a></div>
+    </div>
+  <div class="row">
+    <div class="col-6 col-md-6"><img src="img/body8.png" alt=""><h2>BRAND</h2><a href="#"><p class="text-dark">AI Agent Gran Turismo Sophy™ Is Helping to Redefine the Future of Racing</p></a></div>
+    <div class="col-6 col-md-6"><img src="img/body9.png" alt=""><h2>AUDIO</h2><a href="#"><p class="text-dark">Experience Powerful Sound Anywhere You Go With the XE300 Wireless Speaker</p></a></div>
+    <div class="col-12 col-md-6"><img src="img/body12.png" alt=""><h2>AUDIO</h2><a href="#"><p class="text-dark">Bring the Theater Home With Our New Surround Sound System</p></a></div>
+    <div class="col-12 col-md-6"><img src="img/body13.png" alt=""><h2>MOBILE</h2><a href="#"><p class="text-dark">All the Creative Freedom You Need in the Palm of Your Hand</p></a><img src="img/body14.png" alt=""><h2>GAMING</h2><a href="#"><p class="text-dark">Take a Tour of the New Gameplay Features You Can Expect in “MLB The Show 23”</p></a></div>
+  </div>
+  <div class="row">
+    <div class="col-12" id="social"><h3>Follow us on social media</h3></div>
+    <div class="col-12" id="socialMedia"><img src="img/instagram.svg" alt=""><img src="img/facebook.svg" alt=""><img src="img/twitter.svg" alt=""></div>
+    <div class="col-12" id="socialM"><a href="#">Social Media Policy ></a></div>
+  </div>
+</div>
+ <!-- footer part1 -->
+ <div class="container footer-1">
+  <div class="row">
+    <div class="col-10 col"></div> 
+    <div class="col-12" id="Ftitle">Latest News</div>
+    <div class="col-2 col date"><p>Feb 28, 2023</p><p>Feb 27, 2023</p><p>Feb 24, 2023</p><p>Feb 9, 2023</p><p>Feb 2, 2023</p></div>
+    <div class="col-10 col matn"><p>Sony Semiconductor Solutions Corporation Executive Changes</p><p>Empirical Research to Explore the developmental potential of Chanoyu Culture Begins</p><p>Sony Corporation Executive Appointments</p><p>Support for Türkiye-Syria Earthquake Relief Efforts</p><p>Consolidated Financial Results for the Third Quarter Ended December 31, 2022</p></div>
+  </div>
+</div>
+<!-- footer part2-->
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <!-- <button id="sitemap" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne"> -->
+         <div class="sitemap"> Site Map
+        </div>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-3"><h2>Businesses & Products</h2>
+              <ul>
+                <li><a href="#">Businesses & Products</a></li>
+                <li><a href="#">PlayStation: Games & Network Services</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Pictures: Movies & TV Shows</a></li>
+                <li><a href="#">Electronics: Entertainment Technology & Services</a></li>
+                <li><a href="#">Consumer Electronics</a></li>
+                <li><a href="#">Professional Products & Solutions</a></li>
+                <li><a href="#">Imaging & Sensing Solutions</a></li>
+                <li><a href="#">Financial Services</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3"><h2>About Sony Group</h2>
+              <ul>
+                <li><a href="#">About Sony Group</a></li>
+                <li><a href="#">Sony's Purpose & Value</a></li>
+                <li><a href="#">Message from the CEO</a></li>
+                <li><a href="#">News Releases</a></li>
+                <li><a href="#">Corporate Blog</a></li>
+                <li><a href="#">Brand</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Corporate Data</a></li>
+                <li><a href="#">Affiliated Companies</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3"><h2>Technology</h2>
+              <ul>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Imaging and Sensing</a></li>
+                <li><a href="#">Sony CSL</a></li>
+                <li><a href="#">Sony AI Inc.</a></li>
+                <li><a href="#">AI Initiatives</a></li>
+                <li><a href="#">Sony Innovation Fund</a></li>
+                <li><a href="#">VISION-S</a></li>
+                <li><a href="#">New Initiatives</a></li>
+                <li><a href="#">R&D Center</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3"><h2>Employees</h2>
+              <ul>
+                <li><a href="#">Employees</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">World Map</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-3"><h2>Sustainability</h2>
+                <ul>
+                  <li><a href="#">Sustainability</a></li>
+                  <li><a href="#">Vision of Founder and Approach to Sustainability</a></li>
+                  <li><a href="#">Sustainability Report</a></li>
+                  <li><a href="#">Environment</a></li>
+                  <li><a href="#">Social Contribution</a></li>
+                  <li><a href="#">Diversity, Equity & Inclusion</a></li>
+                  <li><a href="#">Accessibility</a></li>
+                  <li><a href="#">Response to COVID-19</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3"><h2>Design</h2>
+                <ul>
+                  <li><a href="#">Design</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Stories</a></li>
+                  <li><a href="#">Interviews & Lectures</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">News</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3"><h2>Investor Relations</h2>
+                <ul>
+                  <li><a href="#">Investor Relations</a></li>
+                  <li><a href="#">IR News</a></li>
+                  <li><a href="#">IR Library</a></li>
+                  <li><a href="#">Corporate Report</a></li>
+                  <li><a href="#">Earnings Releases</a></li>
+                  <li><a href="#">Corporate Bonds & Ratings</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- -------end footer-------- -->
+<footer id="footer">
+  <section class="footer-2">
+    <ul>
+      <li><a href="#">Terms and Conditions</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Cookie Policy</a></li>
+      <li><a href="#">About this Site</a></li>
+      <li><a href="#">Site Map</a></li>
+      <li id="copyright">Copyright 2023 Sony Group Corporation</li>
+    </ul>
+  </section>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
